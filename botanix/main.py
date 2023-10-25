@@ -2,7 +2,7 @@ import shutil
 import torch
 import telebot
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='E:/botTG/model_pmik.pt', force_reload=True)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='C:/botaniha/model_pmik.pt', force_reload=True)
 
 bot = telebot.TeleBot('6259719229:AAFIqVU3SeHAiy01u1U89XSIdOR5M3ukGMI')
 
